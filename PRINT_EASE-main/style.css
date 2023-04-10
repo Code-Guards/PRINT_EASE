@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('image\ 1.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.301);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fffffffa;
+  text-shadow: 2px 2px #000;
+  background-color: rgb(75, 75, 221);
+  padding: 5px 2px; /* smaller padding */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #080808;
+}
+
+input[type="text"], input[type="password"] {
+  font-size: 1.2rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #372ebe;
+  color: #fff;
+  cursor: pointer
+}
+
+
+
+
+
+
